@@ -1,0 +1,43 @@
+.payment-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-item {
+    margin: 10px 0;
+  }
+  
+  .order-total {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  button {
+    border-radius: 25px;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  }
+  
+
+  .progress-bar {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .order-item {
+    padding: 5px 0;
+  }
+  
+  .order-total {
+    font-size: 18px;
+    font-weight: bold;
+  }

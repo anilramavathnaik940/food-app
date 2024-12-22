@@ -1,0 +1,229 @@
+.home {
+    background-color:ghostwhite;
+    height: 100vh;
+    width: 100vw;
+}
+
+.backbrnd {
+    background-image: url("https://img.freepik.com/premium-photo/indian-food-curry-butter-chicken_786587-660.jpg?w=900");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 85vh;
+    color: aliceblue;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* .uItems {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgba(128, 128, 128, 0.141);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 50px;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    font-style:oblique;
+    color:black;
+    font-size: larger;
+    letter-spacing: 1px;
+} */
+
+.specials {
+    text-align: center;
+    padding-top: 5px;
+    font-variant: normal;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 15px;
+    letter-spacing: 1.3;
+    color: white;
+    font-size: 20px;
+}
+
+span {
+    color: whitesmoke;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+}
+
+.border {
+    border: 1px solid rgb(182, 243, 40);
+    border-radius: 10px;
+    padding: 20px;
+    border-width: none;
+}
+
+.banner-heading {
+    color: yellow;
+    font-style:italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.banner-caption {
+    color: red;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.custom-button {
+    color: white;
+    background-image: linear-gradient(#d0b200, #a58d00);
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: #f3d219;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+
+
+
+.explore-menu-section {
+    background-color: white;
+}
+
+.menu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
+
+.healthy-food-section {
+    background-color: #f9fbfe;
+}
+
+.healthy-food-section-img {
+    width: 270px;
+}
+
+.healthy-food-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.thanking-customers-section {
+    background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.thanking-customers-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.thanking-customers-section-modal-title {
+    color: #d0b200;
+    font-weight: 800;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}

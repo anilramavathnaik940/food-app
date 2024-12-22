@@ -1,0 +1,162 @@
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    width: 87px;
+    height: 90px;
+}
+
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.offers {
+    color:black;
+}
+
+/* Global Styles */
+.container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    color: #444;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .hero-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .hero-subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  /* Section */
+  .section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #ff7043;
+  }
+  
+  .section-image {
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+  
+  /* Features Section */
+  .features-section {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .feature-card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .feature-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  .testimonial-card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff7043;
+    color: #fff;
+    border-radius: 10px;
+  }
+  
